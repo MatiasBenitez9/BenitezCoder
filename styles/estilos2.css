@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Pangolin&family=Righteous&display=swap');
+
+
 body{
     background-color: rgb(251, 225, 174);
     position: relative;
@@ -24,7 +27,7 @@ text-align: right;
 }
   
 .btn-primary {
-    background-color: #007bff;
+    background-color: #4a9aee;
     color: #fff;
 }
 
@@ -99,7 +102,25 @@ p{
     top: 0;
     right: 0;
     padding: 50px;
-    background-color: #5097e9;
+    background-color: rgb(55, 70, 113);
+}
+.linkside-text{
+    background-color: rgb(9, 9, 97);
+    width: 160px;
+    border: white solid 3px;
+    border-radius: 5px;
+}
+.linkside-text2{
+    color: white;
+}
+.linkside-text3{
+    color:white;
+}
+.linkside-text a{
+    display: flex;
+    text-decoration: none;
+    color: aquamarine;
+    justify-content: center;
 }
 .ad-image {
     max-width: 50%;
@@ -137,6 +158,11 @@ p{
     width: 100%;
     max-width: 1200px; 
     margin: 0 auto; 
+}
+
+.titlemod{
+    font-family: 'Righteous';
+    color: black;
 }
 
 /* ACA TERMINA TODO LO QUE ESTA EN EL MAIN */
