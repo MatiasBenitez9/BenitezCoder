@@ -66,6 +66,7 @@ text-align: right;
 }
 p{
     text-align: center;
+    color: white;
 }
 
 .div-img{
@@ -162,7 +163,7 @@ p{
 
 .titlemod{
     font-family: 'Righteous';
-    color: black;
+    color:white;
 }
 
 /* ACA TERMINA TODO LO QUE ESTA EN EL MAIN */
