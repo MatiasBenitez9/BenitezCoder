@@ -104,14 +104,39 @@ p{
     top: 0;
     right: 0;
     padding: 50px;
-    background-color: rgb(55, 70, 113);
 }
-.linkside-text{
+/* .linkside-text{
     background-color: rgb(9, 9, 97);
     width: 160px;
     border: white solid 3px;
     border-radius: 5px;
+} */
+.btn-text{
+    font-size: 20px;
+    padding: 1em 3.3em;
+    transform: perspective(200px) rotateX(15deg);
+    color: black;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgba(63, 94, 251, 0.2) 0px 20px 29px 0px;
+    will-change: transform;
+    transition: all 0.2s;
+    border-bottom: 2px solid rgba(70, 135, 252, 1);
 }
+.btn-text:hover{
+    transform: perspective(180px) rotateX(15deg) translateY(2px);
+}
+.btn-text:active{
+    transform: perspective(170px) rotateX(30deg) translateY(5px);
+}
+/* .btn-text:hover{
+    background: blue;
+    box-shadow: 0 0 10px black, 0 0 50px black, 0 0 50px black, 0 0 100px black;
+
+} */
+
 .linkside-text2{
     color: white;
 }
@@ -125,14 +150,13 @@ p{
     justify-content: center;
 }
 .ad-image {
-    max-width: 50%;
-    height: auto;
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
 }
 .ad-image2
 {
     width: 400px;
-    height:300px;
-    margin-left: 10px;
+    height:250px;
     border: black solid 5px;
     border-radius:5px;
 }
