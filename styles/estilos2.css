@@ -143,6 +143,10 @@ p{
 .linkside-text3{
     color:white;
 }
+.linkside-text{
+    display: flex;
+    justify-content: center;
+}
 .linkside-text a{
     display: flex;
     text-decoration: none;
