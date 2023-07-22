@@ -1,268 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Pangolin&family=Righteous&display=swap');
-
-
-body{
-    background: linear-gradient(90deg, rgba(8,5,66,1) 0%, rgba(1,98,152,1) 40%, rgba(52,199,255,1) 100%);
-
-    position: relative;
-    min-height: 100vh;
-    margin: 0;
-    padding-bottom: 100px;
-}
-
-/* ACA ESTA TODO LO QUE ESTA EN EL NAV */
-
-.nav-bar{
-    background-color: azure;
-}
-
-
-.navbar-collapse {
-    justify-content: flex-end;
-}
-.div-nav{
-text-align: right;
-}
-.form-control {
-    margin-right: 10px;
-}
-  
-.btn-primary {
-    background-color: #4a9aee;
-    color: #fff;
-}
-
-/* ACA TERMINA TODO LO QUE ESTA EN EL NAV */
-
-
-/* TODO LO QUE ESTA EN EL MAIN */
-.maincontainer{
-    min-height: calc(100% - 50px);
-}
-.TitleMarcas {
-    margin-bottom: 10px;
-}
-
-/* .main1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
-.cajaimg{
-    margin: 5px 5px 5px 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: normal;
-    flex-grow: 10px;
-}
-.img3{
-    width: 225px;
-    height: 225px;
-    border: 3px groove black ;
-    border-radius: 5px;
-}
-p{
-    text-align: center;
-    color: white;
-}
-
-.div-img{
-    margin: 5px;
-}
-
-.img1{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-}
- .caja1{
-    background-color: #212faf;
-    padding: 15px;
-    align-items: center;
-    border: 3px solid black;
-}
-.cajaa{
-    margin-left: auto;
-}
-.link{
-    color: black;
-    margin: 10px;
-    font-family: 'Play', sans-serif;
-}
-.cajaimg{
-    text-align: center;
-    margin: 30px;
-    display: flex;
-    
-}
-.side-text {
-    position: relative;
-    top: 0;
-    right: 0;
-    padding: 50px;
-}
-/* .linkside-text{
-    background-color: rgb(9, 9, 97);
-    width: 160px;
-    border: white solid 3px;
-    border-radius: 5px;
-} */
-.btn-text{
-    font-size: 20px;
-    padding: 1em 3.3em;
-    transform: perspective(200px) rotateX(15deg);
-    color: black;
-    font-weight: 900;
-    border: none;
-    border-radius: 5px;
-    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
-    box-shadow: rgba(63, 94, 251, 0.2) 0px 20px 29px 0px;
-    will-change: transform;
-    transition: all 0.2s;
-    border-bottom: 2px solid rgba(70, 135, 252, 1);
-}
-.btn-text:hover{
-    transform: perspective(180px) rotateX(15deg) translateY(2px);
-}
-.btn-text:active{
-    transform: perspective(170px) rotateX(30deg) translateY(5px);
-}
-/* .btn-text:hover{
-    background: blue;
-    box-shadow: 0 0 10px black, 0 0 50px black, 0 0 50px black, 0 0 100px black;
-
-} */
-
-.linkside-text2{
-    color: white;
-}
-.linkside-text3{
-    color:white;
-}
-.linkside-text{
+.formdiv-prueba{
     display: flex;
     justify-content: center;
+    padding-top: 120px;
 }
-.linkside-text a{
-    display: flex;
-    text-decoration: none;
-    color: aquamarine;
-    justify-content: center;
-}
-.ad-image {
-    max-width: 100%;
-    margin: 10px 10px 10px 10px;
-}
-.ad-image2
-{
-    width: 400px;
-    height:250px;
-    border: black solid 5px;
-    border-radius:5px;
-}
-.main-container {
-    margin: 5px 5px 5px 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: normal;
-    flex-grow: 10px;
-}
-.imgMarcas{
-    width: 300px;
-    height: 300px;
-    margin-right: 10px;
-    margin-top: 15px;
-    border: 7px solid black;
-    border-radius: 20px;
-}
-.main1{
-    text-align: center;
-}
-.mainprincipal{
-    width: 100%;
-    max-width: 1200px; 
-    margin: 0 auto; 
-}
-
-.titlemod{
-    font-family: 'Righteous';
-    color: black;
-}
-.titleCont{
-    color:white;
-}
-
-/* ACA TERMINA TODO LO QUE ESTA EN EL MAIN */
-
-
-
-/* TODO LO QUE ES EL FORM PARA LA PAGINA INGRESAR */
-.formlog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px; /* Ajusta el ancho del formulario según tus necesidades */
-    margin: 0 auto;
-}
-.div-form{
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.labelI {
-    width: 100px;
-    margin-right: 10px; 
-}
-.inputI {
-    margin: 10px;
-    flex-grow: 0;
-}
-/* ACA TERMINA TODO LO QUE ES EL FORM PARA LA PAGINA INGRESAR */
-
-
-
-/* TODO LO QUE ES EL FOOTER */
-.footer1 {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #f5f5f5;
-}
-.footer-links{
-    display: flex;
-    justify-content: flex-end;
-}
-.apie1{
-    text-decoration: none;
-    border: 2px solid rgb(60, 60, 188);
-    border-radius: 5px;
-    padding: 1px;
-    margin-left: 10px;
-}
-.logos
-{
-    width: 30px;
-    height: 30px;
-    margin: 10px;
-}
-/* ACA TERMINA TODO LO QUE ES EL FOOTER */
-
-
-
-
-.mainformprueba{
-    display: flex;
-    justify-content:center;
-    padding: 100px 50px 100px 50px;
-}
-
 
 .form {
   position: relative;
@@ -566,3 +306,26 @@ p{
   animation-delay: 1.6s;
   animation-duration: 1.6s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
