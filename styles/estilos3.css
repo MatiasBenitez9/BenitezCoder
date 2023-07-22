@@ -9,9 +9,9 @@
   display: block;
   padding: 2.2rem;
   max-width: 350px;
-  background: linear-gradient(14deg, rgba(2,0,36, 0.8) 0%, rgba(24, 24, 65, 0.7) 66%, 
-            rgb(20, 76, 99) 100%), radial-gradient(circle, rgba(2,0,36, 0.5) 0%, 
-            rgba(32, 15, 53, 0.2) 65%, rgba(14, 29, 28, 0.9) 100%);
+  background: linear-gradient(14deg, rgba(2, 2, 143, 0.8) 0%, rgba(92, 92, 161, 0.7) 66%, 
+            rgb(37, 30, 171) 100%), radial-gradient(circle, rgba(7, 2, 97, 0.5) 0%, 
+            rgba(11, 4, 142, 0.2) 65%, rgba(0, 0, 0, 0.9) 100%);
   border: 2px solid #fff;
   -webkit-box-shadow: rgba(0,212,255) 0px 0px 50px -15px;
   box-shadow: rgba(0,212,255) 0px 0px 50px -15px;
