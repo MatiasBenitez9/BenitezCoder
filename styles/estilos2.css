@@ -51,7 +51,7 @@ text-align: right;
 } */
 
 .cajaimg{
-    margin: 5px 5px 5px 5px;
+    margin: 5px 5px 0px 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,6 +70,15 @@ text-align: right;
     height: 360px;
     border: 3px groove black ;
     border-radius: 5px;
+}
+.descripImage{
+  color: white;
+  border: black groove 3px;
+  border-radius: 5px;
+}
+.descripImage2{
+  text-align: center;
+  margin-top: 10px;
 }
 p{
     text-align: center;
