@@ -75,11 +75,12 @@ text-align: right;
   color: white;
   border: wheat groove 3px;
   border-radius: 5px;
-  padding: 6px;
+  padding: 3px;
   text-align: center;
+  display: inline-block;
 }
 .descripImage2{
-  display: inline-block;
+  display: inline;
 }
 .parrafo{
   margin: 0;
@@ -90,7 +91,8 @@ p{
 }
 
 .div-img{
-    margin: 5px;
+    margin: 3px;
+    padding: 2px; 
 }
 
 .img1{
