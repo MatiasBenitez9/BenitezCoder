@@ -290,6 +290,7 @@ p{
   max-width: 350px;
   background: linear-gradient(90deg, rgba(8,5,66,1) 0%, rgba(1,98,152,1) 40%, rgba(52,199,255,1) 100%);
   border: 2px solid #fff;
+  border-radius: 20px;
   -webkit-box-shadow: rgba(0,212,255) 0px 0px 50px -15px;
   box-shadow: rgba(0,212,255) 0px 0px 50px -15px;
   overflow: hidden;
