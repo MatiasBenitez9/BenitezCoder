@@ -115,9 +115,9 @@ p{
 }
 .side-text {
     position: relative;
-    top: 0;
+    top: 50;
     right: 0;
-    padding: 50px;
+    padding: 20px;
 }
 .btn-text{
     font-size: 20px;
