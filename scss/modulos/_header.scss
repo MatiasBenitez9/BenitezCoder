@@ -8,10 +8,28 @@ header{
             }
             .navbar-collapse{
                 justify-content: flex-end;
-                ul{
+                ul{ 
+                    li{
+                        a{
+                            }
+                    }
                     li{
                         a{
 
+                        }
+                        ul.dropdown-menu{
+                            background-color: whitesmoke; /* Fondo transparente */
+                            border: none; /* Sin borde */
+                            box-shadow: none; /* Sin sombra */
+                            padding: 0; /* Sin relleno interno */
+                            padding: 0.5rem 1rem; /* Ajusta el espaciado de los elementos del desplegable */
+                             color: #822424;
+                            li{
+                                a.dropdown-item{
+                                    padding: 0.5rem 1rem; /* Ajusta el espaciado de los elementos del desplegable */
+                                    color: #333;
+                                }
+                            }
                         }
                     }
                 }

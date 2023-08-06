@@ -7,6 +7,19 @@ header nav div .titlemod {
 header nav div .navbar-collapse {
   justify-content: flex-end;
 }
+header nav div .navbar-collapse ul.dropdown-menu {
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  box-shadow: none; /* Sin sombra */
+  padding: 0; /* Sin relleno interno */
+  padding: 0.5rem 1rem; /* Ajusta el espaciado de los elementos del desplegable */
+  color: #333; /* Color del texto */
+}
+header nav div .navbar-collapse ul.dropdown-menu li a.dropdown-menu .dropdown-item:hover {
+  padding: 0.5rem 1rem; /* Ajusta el espaciado de los elementos del desplegable */
+  color: #333; /* Color del texto */
+  background-color: black;
+}
 header nav div .navbar-collapse form .form-control {
   margin-right: 10px;
 }
@@ -17,63 +30,6 @@ body {
   min-height: 100vh;
   margin: 0;
   padding-bottom: 100px;
-}
-
-main.maincontainer div div.cajaimg {
-  margin: 5px 5px 0px 5px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: normal;
-  flex-grow: 10px;
-  text-align: center;
-  margin: 30px;
-}
-main.maincontainer div div.cajaimg div.div-img {
-  margin: 3px;
-  padding: 2px;
-}
-main.maincontainer div div.cajaimg div.div-img img.img4 {
-  width: 225px;
-  height: 360px;
-  border: 3px groove black;
-  border-radius: 5px;
-}
-main.maincontainer div div.cajaimg div.div-img p {
-  text-align: center;
-  color: white;
-}
-main.maincontainer div div.cajaimg div.div-img div.descripImage {
-  color: white;
-  border: wheat groove 3px;
-  border-radius: 5px;
-  padding: 3px;
-  text-align: center;
-  display: inline-block;
-}
-main.maincontainer div div.cajaimg div.div-img div.descripImage div.descripImage2 {
-  display: inline;
-}
-main.maincontainer div div.cajaimg div.div-img div.descripImage div.descripImage2 p.parrafo {
-  margin: 0;
-}
-
-footer.footer1 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: #f5f5f5;
-}
-footer.footer1 div.footer-links {
-  display: flex;
-  justify-content: flex-end;
-}
-footer.footer1 div.footer-links img.logos {
-  width: 30px;
-  height: 30px;
-  margin: 10px;
 }
 
 main h1.TitleMarcas {

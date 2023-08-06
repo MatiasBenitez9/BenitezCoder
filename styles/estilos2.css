@@ -1,19 +1,23 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Chela+One&family=Pangolin&family=Righteous&display=swap");
-body {
-  background: linear-gradient(90deg, rgb(8, 5, 66) 0%, rgb(1, 98, 152) 40%, rgb(52, 199, 255) 100%);
-  position: relative;
-  min-height: 100vh;
-  margin: 0;
-  padding-bottom: 100px;
-}
-
 header nav div .titlemod {
   font-family: "Righteous";
   color: black;
 }
 header nav div .navbar-collapse {
   justify-content: flex-end;
+}
+header nav div .navbar-collapse ul li ul.dropdown-menu {
+  background-color: whitesmoke; /* Fondo transparente */
+  border: none; /* Sin borde */
+  box-shadow: none; /* Sin sombra */
+  padding: 0; /* Sin relleno interno */
+  padding: 0.5rem 1rem; /* Ajusta el espaciado de los elementos del desplegable */
+  color: #822424;
+}
+header nav div .navbar-collapse ul li ul.dropdown-menu li a.dropdown-item {
+  padding: 0.5rem 1rem; /* Ajusta el espaciado de los elementos del desplegable */
+  color: #333;
 }
 header nav div .navbar-collapse form .form-control {
   margin-right: 10px;
@@ -74,6 +78,14 @@ footer.footer1 div.footer-links img.logos {
   width: 30px;
   height: 30px;
   margin: 10px;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(8, 5, 66) 0%, rgb(1, 98, 152) 40%, rgb(52, 199, 255) 100%);
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding-bottom: 100px;
 }
 
 main h1.TitleMarcas {
