@@ -1,0 +1,26 @@
+header{
+    nav{
+        div{
+            .titlemod{
+                font-family:'Righteous';
+                color: black;
+
+            }
+            .navbar-collapse{
+                justify-content: flex-end;
+                ul{
+                    li{
+                        a{
+
+                        }
+                    }
+                }
+                form{
+                    .form-control{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

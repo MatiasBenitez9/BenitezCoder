@@ -1,0 +1,298 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Chela+One&family=Pangolin&family=Righteous&display=swap");
+header nav div .titlemod {
+  font-family: "Righteous";
+  color: black;
+}
+header nav div .navbar-collapse {
+  justify-content: flex-end;
+}
+header nav div .navbar-collapse form .form-control {
+  margin-right: 10px;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(8, 5, 66) 0%, rgb(1, 98, 152) 40%, rgb(52, 199, 255) 100%);
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+main.maincontainer div div.cajaimg {
+  margin: 5px 5px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: normal;
+  flex-grow: 10px;
+  text-align: center;
+  margin: 30px;
+}
+main.maincontainer div div.cajaimg div.div-img {
+  margin: 3px;
+  padding: 2px;
+}
+main.maincontainer div div.cajaimg div.div-img img.img4 {
+  width: 225px;
+  height: 360px;
+  border: 3px groove black;
+  border-radius: 5px;
+}
+main.maincontainer div div.cajaimg div.div-img p {
+  text-align: center;
+  color: white;
+}
+main.maincontainer div div.cajaimg div.div-img div.descripImage {
+  color: white;
+  border: wheat groove 3px;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: center;
+  display: inline-block;
+}
+main.maincontainer div div.cajaimg div.div-img div.descripImage div.descripImage2 {
+  display: inline;
+}
+main.maincontainer div div.cajaimg div.div-img div.descripImage div.descripImage2 p.parrafo {
+  margin: 0;
+}
+
+footer.footer1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+}
+footer.footer1 div.footer-links {
+  display: flex;
+  justify-content: flex-end;
+}
+footer.footer1 div.footer-links img.logos {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+main h1.TitleMarcas {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main div.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: normal;
+}
+main div.main-container img.ad-image {
+  max-width: 100%;
+  margin: 10px 10px 10x 10px;
+  width: 400px;
+  height: 250px;
+  border: black solid 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+main div.main-container h2.title-publi1 {
+  text-align: center;
+  font-size: 50px;
+  color: #f5f5f5;
+  border: solid wheat 4px;
+  border-radius: 20px;
+  padding: 5px;
+}
+main div.side-text {
+  position: relative;
+  top: 50;
+  right: 0;
+  padding: 20px;
+}
+main div.side-text h2.linkside-text2 {
+  color: white;
+  text-align: center;
+}
+main div.side-text p.linkside-text3 {
+  color: white;
+  text-align: center;
+}
+main div.side-text div.linkside-text {
+  display: flex;
+  text-decoration: none;
+  color: aquamarine;
+  justify-content: center;
+}
+main div.side-text div.linkside-text button.btn-text {
+  font-size: 20px;
+  padding: 1em 3.3em;
+  transform: perspective(200px) rotateX(15deg);
+  color: black;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(0deg, rgb(63, 94, 251) 0%, rgb(70, 135, 252) 100%);
+  box-shadow: rgba(63, 94, 251, 0.2) 0px 20px 29px 0px;
+  will-change: transform;
+  transition: all 0.2s;
+  border-bottom: 2px solid rgb(70, 135, 252);
+}
+main div.side-text div.linkside-text button.btn-text:hover {
+  transform: perspective(180px) rotateX(15deg) translateY(2px);
+}
+main div.side-text div.linkside-text button.btn.text:active {
+  transform: perspective(170px) rotateX(30deg) translateY(5px);
+}
+
+main.main1 {
+  text-align: center;
+  margin-left: 10px;
+}
+main.main1 h1.TitleMarcas {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main.main1 div.img-div1 {
+  display: inline-block;
+  justify-content: center;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+}
+main.main1 div.img-div1 img.imgMarcas {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+  margin-top: 15px;
+  border: 7px solid black;
+  border-radius: 20px;
+}
+
+main.mainform1 {
+  display: flex;
+  justify-content: center;
+  padding: 100px 50px 100px 50px;
+}
+main.mainform1 div.formdiv-prueba form.form {
+  background-color: #fff;
+  display: block;
+  padding: 1rem;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+main.mainform1 div.formdiv-prueba form.form p.form-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+main.mainform1 div.formdiv-prueba form.form div.input-container {
+  position: relative;
+}
+main.mainform1 div.formdiv-prueba form.form div.input-container input {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+main.mainform1 div.formdiv-prueba form.form div.input-container {
+  position: relative;
+}
+main.mainform1 div.formdiv-prueba form.form div.input-container input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+main.mainform1 div.formdiv-prueba form.form button.submit {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+main.mainform1 div.formdiv-prueba form.form p.signup-link {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+main.mainform1 div.formdiv-prueba form.form p.signup-link a {
+  text-decoration: underline;
+}
+
+main.maincontainerContacto div section h1.titleCont {
+  color: white;
+}
+main.maincontainerContacto div section p.parrafomod1 {
+  color: white;
+}
+main.maincontainerContacto div.h6mod section h6 {
+  color: white;
+}
+main.maincontainerContacto .formcont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar elementos horizontalmente */
+  gap: 10px;
+  width: 100%; /* El formulario ocupará todo el ancho disponible */
+  max-width: 500px; /* Ancho máximo del formulario para evitar que sea demasiado grande en pantallas grandes */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
+main.maincontainerContacto .formcont div.titlecont2 {
+  color: royalblue;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  text-align: center;
+}
+main.maincontainerContacto .formcont input.inputcont {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+}
+main.maincontainerContacto .formcont textarea {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+}
+main.maincontainerContacto .formcont button.buttoncont {
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilos2.css.map */

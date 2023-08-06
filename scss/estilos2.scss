@@ -1,40 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Pangolin&family=Righteous&display=swap');
+@import "./modulos/header";
 body{
     background: linear-gradient(90deg, rgba(8,5,66,1) 0%, rgba(1,98,152,1) 40%, rgba(52,199,255,1) 100%);
     position: relative;
     min-height: 100vh;
     margin: 0;
     padding-bottom: 100px;
-}
-header{
-    nav{
-        div{
-            .titlemod{
-                font-family:'Righteous';
-                color: black;
-
-            }
-            button{
-
-            }
-            .navbar-collapse{
-                justify-content: flex-end;
-                ul{
-                    li{
-                        a{
-
-                        }
-                    }
-                }
-                form{
-                    .form-control{
-                        margin-right: 10px;
-                    }
-                }
-            }
-        }
-    }
 }
 main.maincontainer{
     div{
