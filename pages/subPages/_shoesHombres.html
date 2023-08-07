@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Indumentaria</title>
+  <!-- Agregar enlaces a las hojas de estilo de Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="header1 bkheader flex-grow-1 bg-black text-white">
+    <div class="container text-center">
+      <h1>ImperialSport</h1>
+      <p>¡Encuentra las ultimas tendencias en nuestra tienda!</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand titlemod" href="index.html">ImperialSport</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="hombreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hombre
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="hombreDropdown">
+                  <li><a class="dropdown-item" href="./pages/subPages/_tshirtHombres.html">Remeras</a></li>
+                  <li><a class="dropdown-item" href="./pages/subPages/_pantsHombres.html">Pantalones</a></li>
+                  <li><a class="dropdown-item" href="./pages/subPages/_shoesHombres.html">Calzado</a></li>
+                  <li><a class="dropdown-item" href="./pages/subPages/_jacketHombres.html">Accesorios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="mujerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mujer
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="mujerDropdown">
+                  <li><a class="dropdown-item" href="Ofertas.html">Remeras</a></li>
+                  <li><a class="dropdown-item" href="Ofertas.html">Pantalones</a></li>
+                  <li><a class="dropdown-item" href="Ofertas.html">Calzado</a></li>
+                  <li><a class="dropdown-item" href="Ofertas.html">Accesorios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Marcas.html">Marcas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Ingresar.html">Ingresar</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar">
+            </form>
+          </div>
+        </div>
+    </nav>
+  </header>
+  
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="imagen1.jpg" class="card-img-top" alt="Indumentaria 1">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Estampada</h5>
+              <p class="card-text">Una camiseta cómoda y moderna para tu estilo casual.</p>
+              <p class="card-text">$25.99</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="imagen2.jpg" class="card-img-top" alt="Indumentaria 2">
+            <div class="card-body">
+              <h5 class="card-title">Jeans Desgastados</h5>
+              <p class="card-text">Jeans modernos y desgastados para un look urbano.</p>
+              <p class="card-text">$39.99</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="../img/shirts/rem12.jpg" class="card-img-top" alt="Indumentaria 3">
+            <div class="card-body">
+              <h5 class="card-title">Vestido Floral</h5>
+              <p class="card-text">Un vestido floral perfecto para eventos especiales.</p>
+              <p class="card-text">$49.99</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <footer class="bg-dark text-white py-3">
+      <div class="container text-center">
+        <p>&copy; 2023 Tienda de Indumentaria. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
