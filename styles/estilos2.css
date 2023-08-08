@@ -80,6 +80,12 @@ footer.footer1 div.footer-links img.logos {
   margin: 10px;
 }
 
+body.bodymod {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 body {
   background: linear-gradient(90deg, rgb(8, 5, 66) 0%, rgb(1, 98, 152) 40%, rgb(52, 199, 255) 100%);
   position: relative;
