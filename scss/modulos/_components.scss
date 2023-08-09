@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@200&display=swap');
+a.btncomprar{
+    font-family: 'Anek Gurmukhi', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.5;
+    text-decoration: none;
+    cursor: pointer;
+    border: 7px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+a.btncomprar:hover,.btncomprar:focus{
+    color: black;
+    background-color: white;
+    border: solid white 7px;
+}
