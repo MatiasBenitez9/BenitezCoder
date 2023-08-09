@@ -1,5 +1,12 @@
 main.maincontainer{
-    div{
+    div.filtro{
+        width: 20%;
+        padding: 10px;
+        box-sizing: border-box;}
+
+    
+    div.divbox{
+       
         div.cajaimg{
             margin: 5px 5px 0px 5px;
             display: flex;
@@ -25,7 +32,7 @@ main.maincontainer{
                 }
                 div.descripImage{
                     color: white;
-                    border: wheat groove 3px;
+                    border: black groove 3px;
                     border-radius: 5px;
                     padding: 3px;
                     text-align: center;
@@ -52,6 +59,8 @@ footer.footer1{
     div.footer-links{
         display: flex;
         justify-content: flex-end;
+        height: 100%;
+        }
 
         img.logos{
             width: 30px;
@@ -59,4 +68,3 @@ footer.footer1{
             margin: 10px;
         }
     }
-}

@@ -2,8 +2,9 @@
 @import './modulos/header';
 @import './modulos/main';
 @import './modulos/body';
+@import './modulos/divpages';
 body{
-    background: linear-gradient(90deg, rgba(8,5,66,1) 0%, rgba(1,98,152,1) 40%, rgba(52,199,255,1) 100%);
+    background: linear-gradient(150.65deg, #ddd2d7 0%, #787373 19%, #313133 92%);
     position: relative;
     min-height: 100vh;
     margin: 0;

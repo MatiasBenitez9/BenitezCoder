@@ -23,7 +23,12 @@ header nav div .navbar-collapse form .form-control {
   margin-right: 10px;
 }
 
-main.maincontainer div div.cajaimg {
+main.maincontainer div.filtro {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+main.maincontainer div.divbox div.cajaimg {
   margin: 5px 5px 0px 5px;
   display: flex;
   flex-direction: row;
@@ -34,32 +39,32 @@ main.maincontainer div div.cajaimg {
   text-align: center;
   margin: 30px;
 }
-main.maincontainer div div.cajaimg div.div-img {
+main.maincontainer div.divbox div.cajaimg div.div-img {
   margin: 3px;
   padding: 2px;
 }
-main.maincontainer div div.cajaimg div.div-img img.img4 {
+main.maincontainer div.divbox div.cajaimg div.div-img img.img4 {
   width: 225px;
   height: 360px;
   border: 3px groove black;
   border-radius: 5px;
 }
-main.maincontainer div div.cajaimg div.div-img p {
+main.maincontainer div.divbox div.cajaimg div.div-img p {
   text-align: center;
   color: white;
 }
-main.maincontainer div div.cajaimg div.div-img div.descripImage {
+main.maincontainer div.divbox div.cajaimg div.div-img div.descripImage {
   color: white;
-  border: wheat groove 3px;
+  border: black groove 3px;
   border-radius: 5px;
   padding: 3px;
   text-align: center;
   display: inline-block;
 }
-main.maincontainer div div.cajaimg div.div-img div.descripImage div.descripImage2 {
+main.maincontainer div.divbox div.cajaimg div.div-img div.descripImage div.descripImage2 {
   display: inline;
 }
-main.maincontainer div div.cajaimg div.div-img div.descripImage div.descripImage2 p.parrafo {
+main.maincontainer div.divbox div.cajaimg div.div-img div.descripImage div.descripImage2 p.parrafo {
   margin: 0;
 }
 
@@ -73,8 +78,9 @@ footer.footer1 {
 footer.footer1 div.footer-links {
   display: flex;
   justify-content: flex-end;
+  height: 100%;
 }
-footer.footer1 div.footer-links img.logos {
+footer.footer1 img.logos {
   width: 30px;
   height: 30px;
   margin: 10px;
@@ -86,8 +92,14 @@ body.bodymod {
   min-height: 100vh;
 }
 
+div div div div.card img.img4 {
+  margin: 5px;
+  width: 300px;
+  height: 200px;
+}
+
 body {
-  background: linear-gradient(90deg, rgb(8, 5, 66) 0%, rgb(1, 98, 152) 40%, rgb(52, 199, 255) 100%);
+  background: linear-gradient(150.65deg, #ddd2d7 0%, #787373 19%, #313133 92%);
   position: relative;
   min-height: 100vh;
   margin: 0;
