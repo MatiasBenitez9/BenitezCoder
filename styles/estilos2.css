@@ -102,8 +102,8 @@ main div.containerofer div.product img {
   height: auto;
   display: block;
   margin: 0 auto;
-  width: 300px;
-  height: 280px;
+  width: 320px;
+  height: 300px;
 }
 main div.containerofer div.product a {
   text-decoration: none;
@@ -180,17 +180,14 @@ div.card {
   margin-right: 20px;
 }
 
-select {
-  border: solid 2px black;
-  border-radius: 5px;
-}
-
 .custom-select {
   align-items: center;
   margin: 10px;
   width: 200px;
   padding: 5px 5px 5px 5px;
   font-size: 15px;
+  border: solid 2px black;
+  border-radius: 5px;
 }
 
 img.logos {

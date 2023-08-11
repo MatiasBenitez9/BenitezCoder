@@ -35,14 +35,12 @@ div.card{
     flex: 0 0 auto;
     margin-right: 20px;
 }
-select{
-    border: solid 2px black;
-    border-radius: 5px;
-}
 .custom-select{
     align-items: center;
     margin: 10px;
     width: 200px;
     padding: 5px 5px 5px 5px;
     font-size: 15px;
+    border: solid 2px black;
+    border-radius: 5px;
 }
