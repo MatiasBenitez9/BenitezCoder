@@ -67,13 +67,37 @@
   </nav>
 </header>
 <main class="maincontainer">
-  <div class="filtro">
+  <div class="col-6 col-sm-3 order-sm-1">                 
+    <select name="sort-order" class="custom-select" aria-label="Ordenado por">
+        
+            <option class="most-relevant" value="Relevantes" data-id="most-relevant" selected="">
+                Más relevantes
+            </option>
+        
+            <option class="most-sold" value="Mas vendidos" data-id="most-sold">
+                Más vendidos
+            </option>
+        
+            <option class="newest-products" value="Nuevos" data-id="newest-products">
+                Lanzamiento
+            </option>
+        
+            <option class="lowest-price" value="Precio bajo" data-id="lowest-price">
+                Precio más bajo
+            </option>
+        
+            <option class="highest-price" value="Precio alto" data-id="highest-price">
+                Precio más alto
+            </option>
+    </select>
+</div>
+  <!-- <div class="filtro">
     <label for="ordenar">Ordenar por:</label>
     <select id="ordenar">
       <option value="precioAscendente">Precio (Ascendente)</option>
       <option value="precioDescendente">Precio (Descendente)</option>
     </select>
-  </div>
+  </div> -->
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-3 mb-3">

@@ -139,6 +139,14 @@ select {
   border-radius: 5px;
 }
 
+.custom-select {
+  align-items: center;
+  margin: 10px;
+  width: 200px;
+  padding: 5px 5px 5px 5px;
+  font-size: 15px;
+}
+
 body {
   background: linear-gradient(150.65deg, #ddd2d7 0%, #787373 19%, #313133 92%);
   position: relative;
