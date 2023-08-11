@@ -342,7 +342,7 @@ main.main1 div.img-div1 img.imgMarcas {
 main.mainform1 {
   display: flex;
   justify-content: center;
-  padding: 100px 50px 100px 50px;
+  padding: 100px 50px 200px 50px;
 }
 main.mainform1 div.formdiv-prueba form.form {
   background-color: #fff;
