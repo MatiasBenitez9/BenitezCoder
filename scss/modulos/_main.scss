@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@200&family=Paytone+One&display=swap');
 main.maincontainer{
     div.filtro{
         width: 20%;
@@ -41,5 +42,70 @@ main.maincontainer{
                 }
             }
         }
+    }
+}
+
+main{
+    div.banner{
+        background-color: #d9534f;
+        color: white;
+        padding: 15px;
+        align-items: center;
+            p{
+                font-size: 20px;
+                text-align: center;
+            }
+
+    }
+    div.containerofer{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+
+            div.product{
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 10px;
+            flex: 1;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            }
+            div.product h2{
+                font-size: 30px;
+                margin-top: 0;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            div.product p{
+                margin: 10px 0;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+            }
+            div.product img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+            height: 280px;
+            }
+            div.product a{
+                text-decoration: none;
+                background-color: grey;
+                color: white;
+                padding: 5px;
+                border: solid 2px grey;
+                border-radius: 6px;
+            }
+            div.advertising{
+                flex: 1;
+                padding: 10px;
+                background-color: #f9f9f9;
+                border: 1px solid #ddd;
+                text-align: center;
+                img.ad-image{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
     }
 }
