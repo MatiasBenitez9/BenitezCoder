@@ -129,6 +129,16 @@ div.card {
   align-items: center;
 }
 
+.filtro {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+select {
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
 body {
   background: linear-gradient(150.65deg, #ddd2d7 0%, #787373 19%, #313133 92%);
   position: relative;
